@@ -17,11 +17,11 @@
             <p>{{ prediction }}</p>
             <div>
                 <h2>Instance Score</h2>
-                <img src="data:image/png;base64,{{ instance_score_plot }}" alt="Instance Score">
+                <img src="{{ instance_score_plot }}" alt="Instance Score">
             </div>
             <div>
                 <h2>Feature Outlier Image</h2>
-                <img src="data:image/png;base64,{{ feature_outlier_image }}" alt="Feature Outlier Image">
+                <img src="{{ feature_outlier_image }}" alt="Feature Outlier Image">
             </div>
         {% endif %}
     </div>
